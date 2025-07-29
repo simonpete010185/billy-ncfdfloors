@@ -4,7 +4,7 @@ Professional Epoxy Flooring Services in North Carolina
 
 ## About
 
-NC based company here to service all of your department's epoxy flooring needs. We have more than 15 years in the concrete coating industry and have the best materials available.
+NC based company here to service all of your department's epoxy flooring needs. We have more than 20 years in the concrete coating industry and have the best materials available.
 
 **Turn your engine bay into a showroom!**
 
