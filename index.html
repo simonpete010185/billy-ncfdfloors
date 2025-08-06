@@ -22,7 +22,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">
+            <a class="navbar-brand fw-bold" href="#home">
                 <i class="bi bi-house-fill me-2"></i>NCFD Floors
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -31,16 +31,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,21 +51,24 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-section position-relative" style="background-image: url('images/hero/hero-main.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 70vh;">
+    <section id="home" class="hero-section position-relative" style="background-image: url('images/hero/hero-main.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh;">
         <!-- Dark overlay for better text readability -->
         <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.5);"></div>
         
         <div class="container position-relative h-100">
-            <div class="row align-items-center justify-content-center text-center" style="min-height: 70vh;">
+            <div class="row align-items-center justify-content-center text-center" style="min-height: 100vh;">
                 <div class="col-lg-8">
                     <h1 class="display-2 fw-bold text-white mb-4">
                         Turn Your Engine Bay Into a Showroom!
                     </h1>
+                    <p class="lead text-white mb-5 fs-4">
+                        NC based company here to service all of your department's epoxy flooring needs. We have more than 20 years in the concrete coating industry and have the best materials available.
+                    </p>
                     <div class="d-flex gap-3 flex-wrap justify-content-center mb-4">
-                        <a href="contact.html" class="btn btn-danger btn-lg">
+                        <a href="#contact" class="btn btn-danger btn-lg">
                             <i class="bi bi-telephone-fill me-2"></i>Get Quote
                         </a>
-                        <a href="gallery.html" class="btn btn-outline-light btn-lg">
+                        <a href="#gallery" class="btn btn-outline-light btn-lg">
                             <i class="bi bi-images me-2"></i>View Gallery
                         </a>
                     </div>
@@ -74,12 +80,44 @@
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Stats Section -->
     <section class="py-5 bg-light">
         <div class="container">
             <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="text-center p-4">
+                        <span class="display-4 fw-bold text-primary d-block">20+</span>
+                        <div class="fs-6 text-muted mt-2">Years Experience</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="text-center p-4">
+                        <span class="display-4 fw-bold text-primary d-block">500+</span>
+                        <div class="fs-6 text-muted mt-2">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="text-center p-4">
+                        <span class="display-4 fw-bold text-primary d-block">100%</span>
+                        <div class="fs-6 text-muted mt-2">Satisfaction Rate</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="text-center p-4">
+                        <span class="display-4 fw-bold text-primary d-block">NC</span>
+                        <div class="fs-6 text-muted mt-2">Based & Proud</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-8 mx-auto text-center mb-5">
-                    <h2 class="display-5 fw-bold mb-3">Our Services</h2>
+                    <h2 class="display-4 fw-bold mb-3">Our Services</h2>
                     <p class="lead text-muted">
                         Professional epoxy flooring services in North Carolina. With over 20 years in the concrete coating industry, we have the expertise and best materials to transform your space. Specializing in department and commercial epoxy flooring solutions.
                     </p>
@@ -129,60 +167,318 @@
         </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-4 fw-bold mb-3">About NCFD Floors</h2>
+                </div>
+            </div>
+            
+            <!-- Our Company Section -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6">
+                    <img src="images/about/about1.jpeg" 
+                         alt="Our Company Leadership" 
+                         class="img-fluid rounded-3 shadow-lg about-image">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="display-6 fw-bold mb-4">Our Company</h3>
+                    <p class="lead mb-4">
+                         NC based company here to service all of your department's epoxy flooring needs. We have more than 20 years in the concrete coating industry and have the best materials available.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Background Section -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 order-lg-2">
+                    <img src="images/about/about2.jpeg" 
+                         alt="Professional Background" 
+                         class="img-fluid rounded-3 shadow-lg about-image">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <h3 class="display-6 fw-bold mb-4">Background</h3>
+                    <p class="mb-4">
+                        My family is deeply rooted in the fire service with my grandfather, Vance T serving 30 years and my uncle Mike serving 30+ years both with Wilson Fire & Rescue. I completed Wilson Fire academy, served in the Marine Corps, and served with the Johnston County Sheriff's Office for nearly 6 years. 
+                    </p>
+                </div>
+            </div>
+
+            <!-- Business Model Section -->
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="images/about/about3.jpeg" 
+                         alt="Business Model" 
+                         class="img-fluid rounded-3 shadow-lg about-image">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="display-6 fw-bold mb-4">Business Model</h3>
+                    <p class="mb-4">
+                        We are a small scale company with the motivation and drive to complete large scale projects in a timely manner to get your station back in service. Our hours are virtually maintenance free, but we will be there when you call if you have any questions or concerns.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Why Choose Us Section -->
     <section class="py-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h2 class="display-5 fw-bold mb-4">Why Choose NCFD Floors?</h2>
-                    <div class="row g-3">
-                        <div class="col-12">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-4 fw-bold mb-3">Why Choose NCFD Floors</h2>
+                    <p class="lead text-muted">
+                        Our commitment to quality, experience, and customer satisfaction sets us apart
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
                             <div class="d-flex align-items-start">
                                 <div class="flex-shrink-0">
-                                    <i class="bi bi-check-circle-fill text-success fs-4"></i>
+                                    <i class="bi bi-award-fill text-danger fs-1"></i>
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h5>20+ Years Experience</h5>
-                                    <p class="text-muted">Over 20 years in the concrete coating industry with proven results.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="bi bi-check-circle-fill text-success fs-4"></i>
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h5>North Carolina Based</h5>
-                                    <p class="text-muted">Local company serving all of North Carolina's epoxy flooring needs.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <div class="flex-shrink-0">
-                                    <i class="bi bi-check-circle-fill text-success fs-4"></i>
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h5>Best Materials</h5>
-                                    <p class="text-muted">We use only the highest quality materials for lasting results.</p>
+                                    <h5 class="card-title">20+ Years of Experience</h5>
+                                    <p class="card-text">
+                                        Over a decade and a half in the concrete coating industry means we've seen it all and know how to handle any challenge.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <!-- Feature image with Bootstrap classes -->
-                    <img src="images/feature-quality.jpg" 
-                         alt="Quality and Experience" 
-                         class="img-fluid rounded-3 shadow-lg mt-4"
-                         style="height: 350px; width: 100%; object-fit: cover;"
-                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                    
-                    <!-- Fallback placeholder -->
-                    <div class="feature-image-placeholder rounded-3 shadow-lg" style="display: none;">
-                        <i class="bi bi-award-fill"></i>
-                        <p class="fs-5 fw-medium mb-0">Quality & Experience</p>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-shield-fill-check text-danger fs-1"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="card-title">Fire Service Heritage</h5>
+                                    <p class="card-text">
+                                        Deep roots in fire service with family legacy spanning decades of public service and community commitment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-diamond-fill text-danger fs-1"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="card-title">Best Materials Available</h5>
+                                    <p class="card-text">
+                                        We use only the highest quality materials in the industry, ensuring durability and long-lasting results.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-start">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-people-fill text-danger fs-1"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="card-title">Small Scale, Big Results</h5>
+                                    <p class="card-text">
+                                        Small company with the motivation and drive to complete large scale projects in a timely manner.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-4 fw-bold mb-3">Our Work Gallery</h2>
+                    <p class="lead text-muted">
+                        Explore our portfolio of professional epoxy flooring projects across North Carolina. See the quality and craftsmanship that sets us apart.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project Selection Buttons -->
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <div class="btn-group flex-wrap" role="group" aria-label="Project Selection">
+                        <button type="button" class="btn btn-outline-primary active" onclick="showProject('chinquapin')" id="btn-chinquapin">
+                            Chinquapin FD
+                        </button>
+                        <button type="button" class="btn btn-outline-primary" onclick="showProject('faison')" id="btn-faison">
+                            Faison FD
+                        </button>
+                        <button type="button" class="btn btn-outline-primary" onclick="showProject('macclesfield')" id="btn-macclesfield">
+                            Macclesfield FD
+                        </button>
+                        <button type="button" class="btn btn-outline-primary" onclick="showProject('sharpsburg')" id="btn-sharpsburg">
+                            Sharpsburg FD
+                        </button>
+                        <button type="button" class="btn btn-outline-primary" onclick="showProject('westmount')" id="btn-westmount">
+                            Westmount FD
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Project Display -->
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center mb-4">
+                    <h3 class="display-6 fw-bold mb-3" id="project-title">Chinquapin FD</h3>
+                    <p class="lead text-muted" id="project-description">
+                        Professional epoxy flooring transformation showcasing durability and beauty
+                    </p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div id="projectCarousel" class="carousel slide shadow-lg rounded-3" data-bs-ride="carousel">
+                        <div class="carousel-indicators" id="carousel-indicators">
+                            <!-- Indicators will be dynamically generated -->
+                        </div>
+                        <div class="carousel-inner" id="carousel-inner">
+                            <!-- Images will be dynamically loaded -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-4 fw-bold mb-3">Contact NCFD Floors</h2>
+                    <p class="lead text-muted">
+                        Ready to transform your space? Get in touch with our experienced team for a free consultation and quote.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="text-center p-4 bg-light rounded-3 shadow-sm h-100">
+                        <div class="text-primary mb-3">
+                            <i class="bi bi-telephone-fill display-4"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Call Us</h5>
+                        <p class="text-muted">Ready to discuss your project?<br>
+                        <strong class="text-dark">Call today for your free quote!</strong></p>
+                        <a href="tel:+12523731517" class="btn btn-primary">
+                            <i class="bi bi-telephone-fill me-2"></i>(252) 373-1517
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center p-4 bg-light rounded-3 shadow-sm h-100">
+                        <div class="text-primary mb-3">
+                            <i class="bi bi-envelope-fill display-4"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Email Us</h5>
+                        <p class="text-muted">Send us your project details<br>
+                        <strong class="text-dark">billy@liberty-concrete.com</strong></p>
+                        <a href="mailto:billy@liberty-concrete.com" class="btn btn-outline-primary">
+                            <i class="bi bi-envelope-fill me-2"></i>Email Us
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center p-4 bg-light rounded-3 shadow-sm h-100">
+                        <div class="text-primary mb-3">
+                            <i class="bi bi-geo-alt-fill display-4"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Our Location</h5>
+                        <p class="text-muted small mb-2">
+                            <strong class="text-dark">132 Walnut Street SW<br>Wilson, NC 27893</strong>
+                        </p>
+                        <a href="https://maps.google.com/?q=132+Walnut+Street+SW,+Wilson,+NC+27893" target="_blank" class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-geo-alt-fill me-2"></i>Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="display-6 fw-bold text-center mb-4">Frequently Asked Questions</h3>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h4 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How long does an epoxy floor installation take?
+                                </button>
+                            </h4>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Most residential garage floors can be completed in 2-3 days, while larger commercial projects may take 1-2 weeks depending on the size and complexity of the job.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    How durable are epoxy floors?
+                                </button>
+                            </h4>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    With proper installation and quality materials, epoxy floors can last 15-20+ years. They're resistant to chemicals, stains, and heavy traffic.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Do you provide free estimates?
+                                </button>
+                            </h4>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! We provide free consultations and estimates for all projects. Contact us today to schedule your free assessment.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    What areas do you serve?
+                                </button>
+                            </h4>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We proudly serve all of North Carolina, specializing in department and commercial epoxy flooring needs throughout the state.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,12 +490,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="display-5 fw-bold mb-3">Ready to Transform Your Space?</h2>
+                    <h2 class="display-5 fw-bold mb-3">Ready to Work with the Best?</h2>
                     <p class="lead mb-4">
-                        Contact us today for a free consultation and quote on your epoxy flooring project.
+                        Contact us today to discuss your epoxy flooring project with our experienced team.
                     </p>
-                    <a href="contact.html" class="btn btn-danger btn-lg">
-                        <i class="bi bi-telephone-fill me-2"></i>Call Today!
+                    <a href="#contact" class="btn btn-danger btn-lg">
+                        <i class="bi bi-telephone-fill me-2"></i>Get Started Today
                     </a>
                 </div>
             </div>
@@ -223,5 +519,181 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Smooth scrolling for anchor links -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Project data with images and descriptions
+        const projects = {
+            chinquapin: {
+                title: 'Chinquapin FD',
+                description: 'Professional epoxy flooring transformation showcasing durability and beauty',
+                images: [
+                    { src: 'images/gallery/chinquapin/chinquapin0.jpeg', alt: 'Chinquapin Project - Image 1' },
+                    { src: 'images/gallery/chinquapin/chiquapin1.jpeg', alt: 'Chinquapin Project - Image 2' },
+                    { src: 'images/gallery/chinquapin/chiquapin2.jpeg', alt: 'Chinquapin Project - Image 3' },
+                    { src: 'images/gallery/chinquapin/chiquapin3.jpeg', alt: 'Chinquapin Project - Image 4' },
+                    { src: 'images/gallery/chinquapin/chiquapin4.jpeg', alt: 'Chinquapin Project - Image 5' },
+                    { src: 'images/gallery/chinquapin/chiquapin5.jpeg', alt: 'Chinquapin Project - Image 6' },
+                    { src: 'images/gallery/chinquapin/chiquapin6.jpeg', alt: 'Chinquapin Project - Image 7' },
+                    { src: 'images/gallery/chinquapin/chiquapin7.jpeg', alt: 'Chinquapin Project - Image 8' },
+                    { src: 'images/gallery/chinquapin/chiquapin8.jpeg', alt: 'Chinquapin Project - Image 9' },
+                    { src: 'images/gallery/chinquapin/chiquapin9.jpeg', alt: 'Chinquapin Project - Image 10' },
+                    { src: 'images/gallery/chinquapin/chiquapin10.jpeg', alt: 'Chinquapin Project - Image 11' },
+                    { src: 'images/gallery/chinquapin/chiquapin11.jpeg', alt: 'Chinquapin Project - Image 12' },
+                    { src: 'images/gallery/chinquapin/chiquapin12.jpeg', alt: 'Chinquapin Project - Image 13' },
+                    { src: 'images/gallery/chinquapin/chiquapin13.jpeg', alt: 'Chinquapin Project - Image 14' }
+                ]
+            },
+            faison: {
+                title: 'Faison FD',
+                description: 'Commercial epoxy flooring solution with exceptional finish quality',
+                images: [
+                    { src: 'images/gallery/faison/faison0.jpeg', alt: 'Faison Project - Image 1' },
+                    { src: 'images/gallery/faison/faison1.jpeg', alt: 'Faison Project - Image 2' },
+                    { src: 'images/gallery/faison/faison2.jpeg', alt: 'Faison Project - Image 3' },
+                    { src: 'images/gallery/faison/faison3.jpeg', alt: 'Faison Project - Image 4' },
+                    { src: 'images/gallery/faison/faison4.jpeg', alt: 'Faison Project - Image 5' },
+                    { src: 'images/gallery/faison/faison5.jpeg', alt: 'Faison Project - Image 6' },
+                    { src: 'images/gallery/faison/faison6.jpeg', alt: 'Faison Project - Image 7' },
+                    { src: 'images/gallery/faison/faison7.jpeg', alt: 'Faison Project - Image 8' },
+                    { src: 'images/gallery/faison/faison8.jpeg', alt: 'Faison Project - Image 9' },
+                    { src: 'images/gallery/faison/faison9.jpeg', alt: 'Faison Project - Image 10' },
+                    { src: 'images/gallery/faison/faison10.jpeg', alt: 'Faison Project - Image 11' },
+                    { src: 'images/gallery/faison/faison11.jpeg', alt: 'Faison Project - Image 12' },
+                    { src: 'images/gallery/faison/faison12.jpeg', alt: 'Faison Project - Image 13' },
+                    { src: 'images/gallery/faison/faison13.jpeg', alt: 'Faison Project - Image 14' }
+                ]
+            },
+            macclesfield: {
+                title: 'Macclesfield FD',
+                description: 'Complete transformation with premium epoxy coating',
+                images: [
+                    { src: 'images/gallery/macclesfield/macclesfield0.jpeg', alt: 'Macclesfield Project - Image 1' },
+                    { src: 'images/gallery/macclesfield/macclesfield1.jpeg', alt: 'Macclesfield Project - Image 2' },
+                    { src: 'images/gallery/macclesfield/macclesfield2.jpeg', alt: 'Macclesfield Project - Image 3' },
+                    { src: 'images/gallery/macclesfield/macclesfield3.jpeg', alt: 'Macclesfield Project - Image 4' },
+                    { src: 'images/gallery/macclesfield/macclesfield4.jpeg', alt: 'Macclesfield Project - Image 5' },
+                    { src: 'images/gallery/macclesfield/macclesfield5.jpeg', alt: 'Macclesfield Project - Image 6' },
+                    { src: 'images/gallery/macclesfield/macclesfield6.jpeg', alt: 'Macclesfield Project - Image 7' },
+                    { src: 'images/gallery/macclesfield/macclesfield7.jpeg', alt: 'Macclesfield Project - Image 8' },
+                    { src: 'images/gallery/macclesfield/macclesfield8.jpeg', alt: 'Macclesfield Project - Image 9' },
+                    { src: 'images/gallery/macclesfield/macclesfield9.jpeg', alt: 'Macclesfield Project - Image 10' },
+                    { src: 'images/gallery/macclesfield/macclesfield10.jpeg', alt: 'Macclesfield Project - Image 11' },
+                    { src: 'images/gallery/macclesfield/macclesfield11.jpeg', alt: 'Macclesfield Project - Image 12' },
+                    { src: 'images/gallery/macclesfield/macclesfield12.jpeg', alt: 'Macclesfield Project - Image 13' }
+                ]
+            },
+            sharpsburg: {
+                title: 'Sharpsburg FD',
+                description: 'Industrial strength epoxy flooring for heavy-duty applications',
+                images: [
+                    { src: 'images/gallery/sharpsburg/sharpsburg0.jpeg', alt: 'Sharpsburg Project - Image 1' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg1.jpeg', alt: 'Sharpsburg Project - Image 2' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg2.jpeg', alt: 'Sharpsburg Project - Image 3' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg3.jpeg', alt: 'Sharpsburg Project - Image 4' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg4.jpeg', alt: 'Sharpsburg Project - Image 5' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg5.jpg', alt: 'Sharpsburg Project - Image 6' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg6.jpeg', alt: 'Sharpsburg Project - Image 7' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg7.jpeg', alt: 'Sharpsburg Project - Image 8' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg8.jpeg', alt: 'Sharpsburg Project - Image 9' },
+                    { src: 'images/gallery/sharpsburg/sharpsburg9.jpg', alt: 'Sharpsburg Project - Image 10' }
+                ]
+            },
+            westmount: {
+                title: 'Westmount FD',
+                description: 'Showroom-quality finish for professional appearance',
+                images: [
+                    { src: 'images/gallery/westmount/westmount0.jpeg', alt: 'Westmount Project - Image 1' },
+                    { src: 'images/gallery/westmount/westmount1.jpeg', alt: 'Westmount Project - Image 2' },
+                    { src: 'images/gallery/westmount/westmount2.jpeg', alt: 'Westmount Project - Image 3' },
+                    { src: 'images/gallery/westmount/westmount3.jpeg', alt: 'Westmount Project - Image 4' },
+                    { src: 'images/gallery/westmount/westmount4.jpeg', alt: 'Westmount Project - Image 5' }
+                ]
+            }
+        };
+
+        // Function to show a specific project
+        function showProject(projectKey) {
+            const project = projects[projectKey];
+            if (!project) return;
+
+            // Update title and description
+            document.getElementById('project-title').textContent = project.title;
+            document.getElementById('project-description').textContent = project.description;
+
+            // Update button states
+            document.querySelectorAll('.btn-group button').forEach(btn => {
+                btn.classList.remove('active');
+                btn.classList.add('btn-outline-primary');
+                btn.classList.remove('btn-primary');
+            });
+            const activeBtn = document.getElementById(`btn-${projectKey}`);
+            activeBtn.classList.remove('btn-outline-primary');
+            activeBtn.classList.add('btn-primary', 'active');
+
+            // Update carousel indicators
+            const indicatorsContainer = document.getElementById('carousel-indicators');
+            indicatorsContainer.innerHTML = '';
+            project.images.forEach((_, index) => {
+                const indicator = document.createElement('button');
+                indicator.type = 'button';
+                indicator.setAttribute('data-bs-target', '#projectCarousel');
+                indicator.setAttribute('data-bs-slide-to', index);
+                if (index === 0) indicator.classList.add('active');
+                indicatorsContainer.appendChild(indicator);
+            });
+
+            // Update carousel images
+            const carouselInner = document.getElementById('carousel-inner');
+            carouselInner.innerHTML = '';
+            project.images.forEach((image, index) => {
+                const carouselItem = document.createElement('div');
+                carouselItem.className = `carousel-item${index === 0 ? ' active' : ''}`;
+                
+                // Get previous and next images for background previews
+                const prevIndex = index === 0 ? project.images.length - 1 : index - 1;
+                const nextIndex = index === project.images.length - 1 ? 0 : index + 1;
+                const prevImage = project.images[prevIndex];
+                const nextImage = project.images[nextIndex];
+                
+                carouselItem.innerHTML = `
+                    <div style="position: relative; height: 400px; background-color: #f8f9fa; overflow: hidden;">
+                        <!-- Previous image preview (left side) -->
+                        <div style="position: absolute; left: 0; top: 0; width: 50%; height: 100%; background-image: url('${prevImage.src}'); background-size: cover; background-position: center; opacity: 0.15; filter: blur(2px);"></div>
+                        
+                        <!-- Next image preview (right side) -->
+                        <div style="position: absolute; right: 0; top: 0; width: 50%; height: 100%; background-image: url('${nextImage.src}'); background-size: cover; background-position: center; opacity: 0.15; filter: blur(2px);"></div>
+                        
+                        <!-- Main image -->
+                        <img src="${image.src}" class="d-block mx-auto" alt="${image.alt}" style="height: 100%; object-fit: contain; position: relative; z-index: 10;">
+                    </div>
+                `;
+                carouselInner.appendChild(carouselItem);
+            });
+
+            // Reinitialize carousel
+            const carouselElement = document.getElementById('projectCarousel');
+            const carousel = bootstrap.Carousel.getOrCreateInstance(carouselElement);
+            carousel.to(0);
+        }
+
+        // Initialize with Chinquapin project when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            showProject('chinquapin');
+        });
+    </script>
 </body>
 </html>
